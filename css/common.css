@@ -1,0 +1,35 @@
+body{
+  max-width: 460px;
+  height: auto;
+  margin: 0 auto;
+}
+
+button{
+  background-color: #ed4300;
+  border: none;
+  position: relative;
+  color: #fff;
+  border-radius:10px; 
+  padding:15px;
+  height:60px; 
+  width:220px;
+  left: 112px;
+  
+}
+
+.purchase_button {
+  background-color: #ed4300;
+  border: none;
+  position: relative;
+  color: #fff;
+  border-radius:10px; 
+  margin: 0 auto;
+  height: 60px;
+  width: 408px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
