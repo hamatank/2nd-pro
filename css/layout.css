@@ -260,7 +260,7 @@ header .header-wrap a {
 
 .container {
   max-width: 200px;
-  width: 200px;
+  width: 50%;
   height: 300px;
 }
 
@@ -627,3 +627,4 @@ input[type=text] {
   margin-top: 10px;
   color: #444;
 }
+
