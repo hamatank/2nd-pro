@@ -110,11 +110,10 @@ header .header-wrap a {
 }
 
 .quickmenu a {
-  font-style: normal;
+  font-style: none;
   color: black;
   font-weight: 600;
 }
-
 
 .photo {
   max-width: 460px;
@@ -122,7 +121,6 @@ header .header-wrap a {
   margin: 0 auto;
   
 }
-
 
 .photo img{
   max-width: 460px;
@@ -138,9 +136,7 @@ header .header-wrap a {
   width: 100%;
   height: auto;
   margin: 0 auto;
-
 }
-
 
 .about_logo{
   position:relative;
@@ -176,7 +172,6 @@ header .header-wrap a {
 
 
 .reason {
-  
   font-family: "Gothic A1", sans-serif;
   font-weight: normal;
 }
@@ -205,7 +200,7 @@ header .header-wrap a {
   text-align:center;
   font-size: 10px;
   font-family: "Gothic A1", sans-serif;
-  font-weight: bold;
+  font-style: bold;
   padding: 30px;
 }
 
@@ -213,7 +208,7 @@ header .header-wrap a {
   text-align:center;
   font-size: 20px;
   font-family: "Gothic A1", sans-serif;
-  font-weight: bold;
+  font-style: bold;
   padding-top: 50px;
 }
 
@@ -221,14 +216,14 @@ header .header-wrap a {
   text-align:center;
   font-size: 13px;
   font-family: "Gothic A1", sans-serif;
-  font-weight: bold;
+  font-style: bold;
   padding-bottom: 10px;
 }
 .subtitle4 h1{
   text-align:center;
   font-size: 20px;
   font-family: "Gothic A1", sans-serif;
-  font-weight: bold;
+  font-style: bold;
   padding-top: 50px;
 }
 
@@ -236,7 +231,7 @@ header .header-wrap a {
   text-align:center;
   font-size: 13px;
   font-family: "Gothic A1", sans-serif;
-  font-weight: bold;
+  font-style: bold;
   padding-bottom: 10px;
 }
 
@@ -260,7 +255,7 @@ header .header-wrap a {
 
 .container {
   max-width: 200px;
-  width: 50%;
+  width: 200px;
   height: 300px;
 }
 
@@ -284,7 +279,7 @@ ul li .card-text-L p:nth-child(1) {
 
 ul li .card-text p:nth-child(2) {
   display:flex;
-  position: relative;
+  position:relative;
   left: 38px;
   font-size: 15px;
   font-weight:bold;
@@ -292,14 +287,14 @@ ul li .card-text p:nth-child(2) {
 
 ul li .card-text-L p:nth-child(2) {
   display:flex;
-  position: relative;
+  position:relative;
   left: 65px;
   font-size: 15px;
   font-weight:bold;
 }
 
 ul li .card-text p:nth-child(3) {
-  text-decoration: line-through;
+  text-decoration:line-through;
   font-weight:bold;
   color: red;
   opacity: 80%;
@@ -317,9 +312,9 @@ ul li .card-text p:nth-child(3) {
 
 .card-text {
   width:auto;
-  text-align: center;
-  font-family: "Gothic A1", sans-serif;
-  font-style: normal;
+  text-align:center;
+  font-family:"Gothic A1", sans-serif;
+  font-style:normal;
 }
 
 .cart {
@@ -430,7 +425,6 @@ footer p{
 
     .selection2img img {
       position:relative;
-      
       width:195px;
       height:170px;
     }
@@ -485,11 +479,12 @@ footer p{
 /* 회원가입 부분 */
 
 input[type=text] {
-	width: 450px;
+	width: 410px;
 	height: auto;
 	font-size: 30px;
   border: 1px solid lightgrey;
   border-radius: 5px;
+  margin: 20px;
 }
 
 .inputboxes h3{
@@ -627,4 +622,3 @@ input[type=text] {
   margin-top: 10px;
   color: #444;
 }
-

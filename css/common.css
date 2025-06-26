@@ -1,6 +1,5 @@
 body{
   max-width: 460px;
-  width:100%;
   height: auto;
   margin: 0 auto;
 }
@@ -34,3 +33,7 @@ button{
 
 }
 
+span{ 
+  font-size: 16px;
+  font-weight:bold;
+}
