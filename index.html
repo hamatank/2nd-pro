@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/style.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     </div>
 
   <header>
-    <div class="header-wrap">
+    <div class="header-wrap"data-aos="fade-up">
       <a href="seasonal.html"><p>제철상품</p></a>
       <a href="always.html"><p>상시 판매 제품</p></a>
       <a href="gift.html"><p>선물세트</p></a>
@@ -27,7 +28,7 @@
     </div>
   </header>
 
-  <div class="banner">
+  <div class="banner"data-aos="fade-up">
     <div class="banner-slide">
     <img src="assets/images/garibi_banner.jpg" alt="banner1">
     <img src="assets/images/anchovy.jpg" alt="banner2">
@@ -36,7 +37,7 @@
     </div>
   </div>
 
-  <div class="quickmenu">
+  <div class="quickmenu"data-aos="fade-up">
     <img src="assets/images/Cod.png" alt="cod"><a href="#">해산물  </a>
     <img src="assets/images/Corn.png" alt="corn">
     <a href="#">농산물</a>
@@ -44,11 +45,11 @@
   </div>
 
   
-        <div class="subtitle1">
+        <div class="subtitle1"data-aos="fade-up">
           <h1>오늘의 제철 상품</h1>
         </div>
 
-  <ul class="seasonal">
+  <ul class="seasonal"data-aos="fade-up">
         <li class="container">   
             <a href="#">
               <img src="assets/images/anchovy_product.jpg" class="card-image" alt="anchovy">
@@ -191,6 +192,12 @@
       거제대로 5989 대표번호: 010-6743-5051</p>
       <img src="assets/images/footer.png" alt="footer">
     </footer>
-
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,   // 애니메이션 지속 시간 (ms)
+    once: true        // 한 번만 실행
+  });
+</script>
 </body>
 </html>

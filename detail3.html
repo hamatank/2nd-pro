@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/style.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     </div>
 
     <header> 
-    <div class="header-wrap">
+    <div class="header-wrap"data-aos="fade-up">
       <a href="seasonal.html"><p>제철상품</p></a>
       <a href="always.html"><p>상시 판매 제품</p></a>
       <a href="gift.html"><p>선물세트</p></a>
@@ -27,15 +28,15 @@
     </div> 
   </header>
 
-  <div class="title">
+  <div class="title"data-aos="fade-up">
       <p>  멸치 건어물 종합세트 A형</p>
     </div>
 
-    <div class="photo">
+    <div class="photo"data-aos="fade-up">
       <img src="assets/images/dried_gift01.jpg" alt="gift1">
     </div>
 
-    <div class="garibi_price">
+    <div class="garibi_price"data-aos="fade-up">
 
     <p>멸치 건어물 종합세트 A형 소멸치800g     중멸치700g다시멸치700g </p>
     <p></p>
@@ -50,17 +51,17 @@
     
     </div>
 
-    <div class="photo">
+    <div class="photo"data-aos="fade-up">
       <img src="assets/images/anchovy_food2.jpg" alt="anchovy_food2">
     </div>
 
-    <div class="photo">
+    <div class="photo"data-aos="fade-up">
       <img src="assets/images/anchovy_food.jpg" alt="anchovy_food">
     </div>
     <br>
 
     <footer-menu>
-      <ul class = footermenu_parent>
+      <ul class = footermenu_parent data-aos="fade-up">
         <li class="container-footer">   
             <a href="login.html">
               <img src="assets/images/Login.png" class="login" alt="login">
@@ -114,6 +115,13 @@
       <img src="assets/images/footer.png" alt="footer">
     </footer>
   
-
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,   // 애니메이션 지속 시간 (ms)
+    once: true        // 한 번만 실행
+  });
+</script>
 </body>
 </html>

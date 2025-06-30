@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/common.css">
  <link rel="stylesheet" href="css/style.css">
+ <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
       <a href="index.html"><img src="assets/images/logo.png" alt="logoM"></a>
     </div>
   <header> 
-    <div class="header-wrap">
+    <div class="header-wrap"data-aos="fade-up">
       <a href="seasonal.html"><p>제철상품</p></a>
       <a href="always.html"><p>상시 판매 제품</p></a>
       <a href="gift.html"><p>선물세트</p></a>
@@ -26,19 +27,19 @@
     </div> 
   </header>
 
-  <div class="quickmenu">
+  <div class="quickmenu"data-aos="fade-up">
     <img src="assets/images/Cod.png" alt="cod"><a href="#">해산물</a>
     <img src="assets/images/Corn.png" alt="corn"><a href="#">농산물</a>
     <img src="assets/images/Dry.png" alt="dry"><a href="#">건어물</a>
   </div>
 
   
-        <div class="subtitle4">
+        <div class="subtitle4"data-aos="fade-up">
           <h1>상시 판매 제품</h1>
           <h4>언제나 맛 볼수 있는 상시판매 제품</h4>
         </div>
 
-  <ul class="seasonal2">
+  <ul class="seasonal2"data-aos="fade-up">
         <li class="container">   
             <a href="#">
               <img src="assets/images/dried_cod.jpg" class="card-image" alt="cod">
@@ -81,7 +82,7 @@
         </li>
     </ul>
       
-    <ul class="seasonal2">
+    <ul class="seasonal2"data-aos="fade-up">
         <li class="container">   
             <a href="#">
               <img src="assets/images/squide.jpg" class="card-image" alt="squide">
@@ -184,5 +185,12 @@
       <img src="assets/images/footer.png" alt="footer">
     </footer>
 
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,   // 애니메이션 지속 시간 (ms)
+    once: true        // 한 번만 실행
+  });
+</script>
 </body>
 </html>
