@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/common.css">
  <link rel="stylesheet" href="css/style.css">
-
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     </div>
 
     <header> 
-    <div class="header-wrap">
+    <div class="header-wrap" data-aos="fade-up">
       <a href="seasonal.html"><p>제철상품</p></a>
       <a href="always.html"><p>상시 판매 제품</p></a>
       <a href="gift.html"><p>선물세트</p></a>
@@ -28,19 +28,19 @@
     </div> 
   </header>
 
-    <div class="subtitle1">
+    <div class="subtitle1" data-aos="fade-up">
       <h1>About 제철마켓</h1>
     </div>
 
-    <div class="aboutphoto">
+    <div class="aboutphoto" data-aos="fade-up">
       <img src="assets/images/geoje_port2.png" alt="photo">
     </div>
 
-    <div class="about_logo">
+    <div class="about_logo" data-aos="fade-up">
       <img src="assets/images/about_logo.jpg" alt="about_logo">
     </div>
 
-    <div class="about_description">
+    <div class="about_description" data-aos="fade-up">
 
     <p>‘제철마켓’은 통영에 거주하시며 거제에서 자리를 잡고 수산물,농산물 도매업을 하시는 아버지의 뛰어난 안목과 제철음식이 최고다 매일 노래를 부르시는 어머니의 제철음식 사랑 사이에서 시작되었습니다.
     
@@ -54,7 +54,7 @@
     
     <h2>겨울</h2><p>엔 살이 통통하게 오른 생굴과 구워 먹으면 달달한 가리비와 석화, 거제에서 막 수확한 유자로 만든 유자청을 먹으며 추위를 이겨냈답니다.</p> <br>
     
-    <p>제일 맛있는 시기에 제일 싱싱하고 맛있는 수산물이나 농산물을 먹으며 자란 저는 이를 내가 사랑하는 다른 이들과 나누고 싶다는 생각을 자연스럽게 가지게 되었답니다. 그마음을 기반으로 철에 맞는 건강하고 신선한 농,수산물을 가족드레에게 그리고 지인들에게 보낸다는 마음으로 제철마켓을 운영해 보고자 합니다.
+    <p>제일 맛있는 시기에 제일 싱싱하고 맛있는 수산물이나 농산물을 먹으며 자란 저는 이를 내가 사랑하는 다른 이들과 나누고 싶다는 생각을 자연스럽게 가지게 되었답니다. 그마음을 기반으로 철에 맞는 건강하고 신선한 농,수산물을 가족들에게 그리고 지인들에게 보낸다는 마음으로 제철마켓을 운영해 보고자 합니다.
     
     꾸준히 성장하는 모습을 기특하다 여겨 주시고 응원하는 마음으로 지켜봐 주시기 바랍니다. 고맙습니다. <br>
     
@@ -118,6 +118,12 @@
       <img src="assets/images/footer.png" alt="footer">
     </footer>
   
-
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,   // 애니메이션 지속 시간 (ms)
+    once: true        // 한 번만 실행
+  });
+</script>
 </body>
 </html>

@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/style.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     </div>
 
     <header> 
-    <div class="header-wrap">
+    <div class="header-wrap"data-aos="fade-up">
       <a href="seasonal.html"><p>제철상품</p></a>
       <a href="always.html"><p>상시 판매 제품</p></a>
       <a href="gift.html"><p>선물세트</p></a>
@@ -27,7 +28,7 @@
     </div> 
   </header>
 
-    <div class="note">
+    <div class="note"data-aos="fade-up">
       <h1>구매 시 유의 사항</h1>
       <p><span>20~30미</span> 내외로 보내드리고 있으며 개수에 차이가 있을 수 있습니다. 
       중량에 맞춰서 보내드리고 있는점 참고 부탁드립니다. <br> 
@@ -38,11 +39,11 @@
       </p>
     </div>
 
-    <div class="photo">
+    <div class="photo"data-aos="fade-up">
       <img src="assets/images/garibi2.jpg" alt="garibi2">
     </div>
 
-    <div class="garibi_price">
+    <div class="garibi_price"data-aos="fade-up">
     <p>비단 가리비 1kg</p>
     <p>(20-30미 내외)</p>
     <p>9,900원</p>
@@ -52,11 +53,11 @@
     <p>판매자 : 제철마켓</p> <br>
     </div>
 
-    <div class="photo">
+    <div class="photo"data-aos="fade-up">
       <img src="assets/images/garibi_fishingboat.jpg" alt="garibiboat">
     </div>
 
-    <div class="reason">
+    <div class="reason"data-aos="fade-up">
     <p>제철마켓 비단가리비가 특별한 이유 세가지!</p><br>
     <h2>특별한 이유 01</h2><br>
     <p>청정바다에서 자라 좋은 품질의 가리비에요!</p> <br>
@@ -64,11 +65,11 @@
     반질반질한 좋은 품질의 가리비를 만나보세요!</p> <br>
     </div>
 
-    <div class="photo">
+    <div class="photo"data-aos="fade-up">
       <img src="assets/images/garibi_washing.jpg" alt="garibiwashing">
     </div>
 
-    <div class="reason">
+    <div class="reason"data-aos="fade-up">
       <h2>특별한 이유 02</h2> <br>
     <p><span>꼼꼼하게 선별하고 세척</span>해서 보내드려요.
 
@@ -76,11 +77,11 @@
     포장 전 <span>해감을 해 꼼꼼하게 보내드려요.</span>
     </div>
 
-    <div class="photo">
+    <div class="photo"data-aos="fade-up">
       <img src="assets/images/garibi_food01.jpg" alt="garibifood">
     </div>
 
-    <div class="reason">
+    <div class="reason"data-aos="fade-up">
       <br>
     <h2>특별한 이유 03</h2> <br>
     <p>청정바다에서 자라 좋은 품질의 가리비에요!</p> <br>
@@ -145,6 +146,13 @@
       <img src="assets/images/footer.png" alt="footer">
     </footer>
   
-
+    <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,   // 애니메이션 지속 시간 (ms)
+    once: true        // 한 번만 실행
+  });
+</script>
 </body>
 </html>

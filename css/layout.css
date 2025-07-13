@@ -404,7 +404,7 @@ footer p{
     }
 
 
-    /* 장바구니 부분 */
+    /* 장바구니 부분입니다. */
 
     .selection2 {
       display: flex;
@@ -476,7 +476,7 @@ footer p{
 /* 장바구니 끝 */
 
 
-/* 회원가입 부분 */
+/* 회원가입 부분입니다. */
 
 input[type=text] {
 	width: 410px;
@@ -545,7 +545,7 @@ input[type=text] {
 }
 
 
-/* 배송/조회 부분 */
+/* 배송/조회 부분입니다. */
 
   .title img {
     width: 35px;
@@ -564,7 +564,7 @@ input[type=text] {
   }
   
 
-/* 고객센터 부분 */
+/* 고객센터 부분입니다. */
 
 .basic_info {
   padding: 5px;
@@ -621,4 +621,38 @@ input[type=text] {
   display: none;
   margin-top: 10px;
   color: #444;
+}
+
+/* 미디어쿼리 입니다. */
+
+@media screen and (max-width: 430px) {
+  .logo img,
+  .banner img,
+  .banner,
+  .footer img {
+    width: 100%;
+  }
+
+  .container {
+    width: 45%;
+  }
+
+  .cart {
+    left: auto;
+    right: 10px;
+  }
+
+  input[type="text"] {
+    width: 90%;
+  }
+
+  .quickmenu {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .footermenu_parent {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 }
