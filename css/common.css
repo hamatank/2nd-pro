@@ -22,10 +22,10 @@ button{
   border: none;
   position: relative;
   color: #fff;
-  border-radius:10px; 
+  border-radius:1rem; 
   margin: 0 auto;
-  height: 60px;
-  width: 408px;
+  height: 6rem;
+  width: 40.8rem;
   text-align: center;
   display: flex;
   justify-content: center;

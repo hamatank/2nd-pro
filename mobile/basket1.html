@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="layout.css">
  
     
 
@@ -31,68 +31,73 @@
   </div> 
 </header>
 
-  <div class="subtitle3">
+<div class="basket">
+    <div class="subtitle3">
     <h1>장바구니</h1>
-  </div>
+    </div>
   
-  <div class="selection1">
-    <input type="checkbox" id="total" name="total" checked><label for="total">일괄선택</label>
-  </div>
-
+    <div class="selection1">
+      <input type="checkbox" id="total" name="total" checked><label for="total">일괄선택</label>
+    </div>
+  
+    <div class="selection2">
+      <input type="checkbox" id="total" name="total" checked><label for="total"></label>
+      <p>멸치 건어물 종합세트 A형</p>
+      <a href="#"><i class="fa-solid fa-x"></i></a>
+    
+    </div>
+    <div class="selection2img">  
+      <p>56,000원</p>
+      <p>70,000원</p>
+      <img src="../assets/images/dried_gift01.jpg" alt="gift1">
+    </div>
+    
+    <div class="plus-minus-box">
+      <span class="plus-icon">+</span>
+      <span class="value">0</span>
+      <span class="minus-icon">-</span>
+    </div>
+    
   <div class="selection2">
-    <input type="checkbox" id="total" name="total" checked><label for="total"></label>
-    <p>멸치 건어물 종합세트 A형</p>
-    <a href="#"><i class="fa-solid fa-x"></i></a>
+      <input type="checkbox" id="total" name="total" checked><label for="total"></label>
+      <p>통영 자연산 전복</p>
+      <a href="#"><i class="fa-solid fa-x"></i></a>
+    </div>
+    <div class="selection2img">
+      <p>55,000원</p>
+      <img src="../assets/images/jeonbok.jpg" alt="gift2">
+    </div>
+    
+    <div class="plus-minus-box">
+      <span class="plus-icon">+</span>
+      <span class="value">0</span>
+      <span class="minus-icon">-</span>
+    </div>
   
-  </div>
-  <div class="selection2img">  
-    <p>56,000원</p>
-    <p>70,000원</p>
-    <img src="../assets/images/dried_gift01.jpg" alt="gift1">
-  </div>
+    <div class="selection2">
+      <input type="checkbox" id="total" name="total" checked><label for="total"></label>
+      <p>통영 자연산 가리비</p>
+      <a href="#"><i class="fa-solid fa-x"></i></a>
+    </div>
+    <div class="selection2img">
+      <p>9,900원</p>
+      <p>15,000원</p>
+      <img src="../assets/images/garibi_food01.jpg" alt="gift">
+    </div>
+    
+    <div class="plus-minus-box">
+      <span class="plus-icon">+</span>
+      <span class="value">0</span>
+      <span class="minus-icon">-</span>
+    </div>
   
-  <div class="plus-minus-box">
-    <span class="plus-icon">+</span>
-    <span class="value">0</span>
-    <span class="minus-icon">-</span>
-  </div>
-  
-<div class="selection2">
-    <input type="checkbox" id="total" name="total" checked><label for="total"></label>
-    <p>통영 자연산 전복</p>
-    <a href="#"><i class="fa-solid fa-x"></i></a>
-  </div>
-  <div class="selection2img">
-    <p>55,000원</p>
-    <img src="../assets/images/jeonbok.jpg" alt="gift2">
-  </div>
-  
-  <div class="plus-minus-box">
-    <span class="plus-icon">+</span>
-    <span class="value">0</span>
-    <span class="minus-icon">-</span>
+  <div id="total-price-box">
+    <strong>총 합계 (배송비 포함): </strong><span id="total-price">0</span>원
   </div>
 
-  <div class="selection2">
-    <input type="checkbox" id="total" name="total" checked><label for="total"></label>
-    <p>통영 자연산 가리비</p>
-    <a href="#"><i class="fa-solid fa-x"></i></a>
-  </div>
-  <div class="selection2img">
-    <p>9,900원</p>
-    <p>15,000원</p>
-    <img src="../assets/images/garibi_food01.jpg" alt="gift">
-  </div>
-  
-  <div class="plus-minus-box">
-    <span class="plus-icon">+</span>
-    <span class="value">0</span>
-    <span class="minus-icon">-</span>
-  </div>
 
-<div id="total-price-box">
-  <strong>총 합계 (배송비 포함): </strong><span id="total-price">0</span>원
 </div>
+ 
 
 
 
@@ -166,5 +171,7 @@
   </footer>
 
   <script src="../js/box.js"></script>
+  <h1>📱 제철마켓 모바일 페이지</h1>
+  <p>모바일 사용자에게 최적화된 페이지입니다.</p>
 </body>
 </html>

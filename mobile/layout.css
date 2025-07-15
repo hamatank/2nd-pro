@@ -8,6 +8,14 @@ body {
   color: #333;
 }
 
+ol, ul {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+} 
+
 h1 {
   text-align: center;
   font-size: 20px;
@@ -45,7 +53,6 @@ p {
   color: white;
   font-size: 14px;
   font-weight: bold;
-  text-decoration: none;
   margin: 5px 10px;
 }
 
@@ -94,7 +101,6 @@ p {
   font-size: 13px;
   font-weight: bold;
   color: black;
-  text-decoration: none;
 }
 
 
@@ -199,11 +205,6 @@ p {
   font-family: "Gothic A1", sans-serif;
 }
 
-.container-footer a {
-  text-decoration: none;
-}
-
-
 
 footer {
   padding: 20px;
@@ -223,6 +224,324 @@ footer img {
   border-radius: 10px;
 }
 
+/* about related part */
+
+.aboutphoto img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+     .container-footer{
+    padding-bottom: 10px; 
+    }
+
+    .footermenu-text{
+      color:black;
+      font-size:14px;
+      font-family:"Gothic A1", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+    }
+
+    .about_description p{
+      font-size: 14px;
+      font-family:"Gothic A1", sans-serif;
+      font-style: normal;
+    }
+
+    .about_description h2:nth-child(3){
+      font-size: 20px;
+      font-family:"Gothic A1", sans-serif;
+      font-style: normal;
+      color:orangered;
+    }
+    .about_description h2:nth-child(6){
+      font-size: 20px;
+      font-family:"Gothic A1", sans-serif;
+      font-style: normal;
+      color:green;
+    }
+    .about_description h2:nth-child(9){
+      font-size: 20px;
+      font-family:"Gothic A1", sans-serif;
+      font-style: normal;
+      color:brown;
+    }
+    .about_description h2:nth-child(12){
+      font-size: 20px;
+      font-family:"Gothic A1", sans-serif;
+      font-style: normal;
+      color:skyblue;
+    }
+
+
+/* about related end */
+
+
+/* basket part */
+
+    .selection2 {
+      display: flex;
+      gap: 10px;
+    }    
+
+    .basket .selection2 a i{
+      position: relative;
+      top: 0.8rem;
+      color: black;
+    }
+
+    .selection2img img {
+      position:relative;
+      width:195px;
+      height:170px;
+    }
+
+    .selection2img p{
+      display:flex;
+      position:relative;
+      left: 300px;
+    }
+    
+    .selection2img p:nth-child(1){
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+
+    .selection2img p:nth-child(2){
+      text-decoration: line-through;
+      color:red;
+    }
+    
+    .number-box {
+      position: relative;
+      left: 200px;
+    }
+
+.plus-minus-box {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-left: 300px;
+  position: relative;
+  bottom: 70px;
+}
+.plus-icon, .minus-icon {
+  width: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.value {
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+/* basket end */
+
+/* sign-up start */
+
+input[type=text] {
+	width: 90%;
+	height: auto;
+	font-size: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.inputboxes h3{
+  color: red;
+  position: relative;
+  left: 235px;
+  bottom: 50px;
+}
+
+
+.button1 img {
+  width: 20px;
+  height: 20px;
+  display:flex;
+  justify-content:center;
+  align-content: center;
+}
+
+.button2 img {
+  width: 55px;
+  height: 16px;
+}
+
+
+.button1 a P{
+  background-color:#2db400;
+  color: white;
+  border-radius: 5px;
+  padding:10px;
+  margin: 10px;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  font-weight:bold;
+  font-family:"Gothic A1", sans-serif;
+}
+
+.button2 a p{
+  background-color:#FAE100;
+  text-align:center;
+  color: #371d1e;
+  padding:10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight:bold;
+  font-family:"Gothic A1", sans-serif;
+}
+
+.button3 a p{
+  background-color:#ED4300;
+  text-align:center;
+  color: white;
+  padding:10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight:bold;
+  font-family:"Gothic A1", sans-serif;
+}
+/* sign-up end */
+
+/* delivery start */
+
+  .title img {
+    width: 35px;
+    height: 25px;
+  }
+
+  .title p {
+  font-size: 20px;
+  font-family: "Gothic A1", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+  .button4 a p{
+    border: 1px solid lightgray;
+  text-align:center;
+  color: black;
+  padding:10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight:bold;
+  font-family:"Gothic A1", sans-serif;
+  }
+  /* delivery-end */
+
+/* customer service start */
+
+.basic_info {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.sub-title { text-align: center;
+  padding: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.question :nth-child(1){
+  padding: 5px;
+  font-weight:bold;
+}
+
+.question :nth-child(2){
+  padding: 5px;
+  font-weight:bold;
+}
+
+.question-answer {
+  display: none;
+  margin-left: 15px;
+  color: #444;
+}
+
+.question {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+  font-weight:bold;
+}
+
+.question-title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  user-select: none;
+}
+
+.question-title .arrow {
+  display: inline-block;
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+.question-answer {
+  display: none;
+  margin-top: 10px;
+  color: #444;
+}
+/* customer service end */
+
+
+/* more button start */
+
+  button {
+  
+  background-color: #ed4300;
+  border: none;
+  color: #fff;
+  border-radius: 1rem; 
+  margin: 0 auto;
+  height: 3rem;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+/* more button end */
+
+/* photo control */
+
+.photo {
+  
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.photo img{
+  
+  width: 100%;
+  height:auto;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+
 
 @media screen and (max-width: 350px) {
   .container {
@@ -230,3 +549,5 @@ footer img {
     margin: 10px 0;
   }
 }
+
+
