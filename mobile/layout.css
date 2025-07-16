@@ -207,6 +207,7 @@ p {
 
 
 footer {
+  margin-bottom: 1rem;
   padding: 20px;
   background-color: #333;
   color: white;
@@ -283,7 +284,7 @@ footer img {
 
     .selection2 {
       display: flex;
-      gap: 10px;
+      
     }    
 
     .basket .selection2 a i{
@@ -301,7 +302,7 @@ footer img {
     .selection2img p{
       display:flex;
       position:relative;
-      left: 300px;
+      left: 270px;
     }
     
     .selection2img p:nth-child(1){
@@ -317,7 +318,7 @@ footer img {
     
     .number-box {
       position: relative;
-      left: 200px;
+      left: 120px;
     }
 
 .plus-minus-box {
@@ -328,7 +329,7 @@ footer img {
   border: 1px solid #ccc;
   background-color: #f9f9f9;
   text-align: center;
-  margin-left: 300px;
+  margin-left: 220px;
   position: relative;
   bottom: 70px;
 }
@@ -519,8 +520,28 @@ input[type=text] {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  position: relative;
+  bottom: 0.5rem;
+
   }
+
+  .purchase_button {
+      background-color: #ed4300;
+  border: none;
+  color: #fff;
+  border-radius: 1rem; 
+  margin: 0 auto;
+  height: 3rem;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0.5rem;
+
+  }
+
 
 /* more button end */
 
